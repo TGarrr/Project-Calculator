@@ -1,0 +1,28 @@
+/* * {
+    background-color : black;
+}
+
+.handphone {
+   border: 1px solid white;
+   padding: 200px;
+   margin: 10% 30% 10% 30%;
+} */
+
+body {
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+    min-height: 100vh;       /* full viewport height */
+    margin: 0;
+    background: black;
+}
+
+.handphone {
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px; /* padding lebih kecil agar tidak terlalu besar */
+    background: white; /* warna latar belakang putih */
+    width: 261px; /* lebar handphone */
+    height: 521px;
+    
+}
