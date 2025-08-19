@@ -18,11 +18,57 @@ body {
 }
 
 .handphone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
     border: 1px solid white;
     border-radius: 20px;
-    padding: 20px; /* padding lebih kecil agar tidak terlalu besar */
-    background: white; /* warna latar belakang putih */
-    width: 261px; /* lebar handphone */
+    padding: 20px;
+    background: white;
+    width: 261px;
     height: 521px;
-    
 }
+
+.display {
+    background: #222;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    text-align: right;
+    min-height: 40px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 kolom */
+    grid-template-rows: repeat(5, 1fr);    /* 5 baris */
+    gap: 10px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tombol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: background 0.2s;
+}
+.tombol:active {
+    background: #e0e0e0;
+}
+
